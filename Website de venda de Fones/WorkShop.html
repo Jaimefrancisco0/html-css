@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ao">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="WorkShop.css">
+    <title>WorkShop</title>
+</head>
+<body>
+
+<header>
+    <a href="#" class="logo"> <i class="bx bx-headphone"></i>SoundBox</a>
+
+    <ul class="navegação">
+        <li><a href="#">Visão Geral</a></li>
+        <li><a href="#">Teach Spaces</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul><!--Navegação-->
+
+    <div class="header_icons">
+        <i class="bx bx_cart"></i>
+        <div id="menu">
+            <i class="bx bx_menu"></i>
+        </div>
+    </div>
+</header>
+
+<section class="home">
+    <div class="home_img">
+        <img src="img/Sasuke.jpg"  class="one">
+    </div><!--home_img-->
+
+    <div class="home_text">
+
+        <h1>Wireless <br> HeadPhones</h1>
+        <h5>The smarter way to listen</h5>
+        <h3>15.000.00kz</h3>
+        <a href="Compreagora.html" class="btn">Compre Agora</a>
+    </div><!--home_text-->
+</section><!--home-->
+
+<div class="main">
+    <div class="row">
+        <li><img src="Img/Sasuke1.png" onclick="slider('Sasuke1.jpg')"></li>
+    </div>
+
+    <div class="row2">
+        <li><img src="Img/Madara1.png" onclick="slider('Madara.jpg')"></li>
+    </div>
+
+    <div class="row3">
+        <li><img src="Img/minato2.png" onclick="slider('Minato2.jpg')"></li>
+    </div>
+</div><!--main-->
+
+
+<script>
+    function slider(anything){
+        document.querySelector('.one') .src = anything;
+
+    };
+    let menu = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
+
+    menu.onclick = () => {
+        menu.classList.toggle ('bx-x');
+        navbar.classList.toggle ('open');
+    }
+</script>
+</body>
+</html>

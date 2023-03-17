@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ao">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Pginicial.css">
+	<title>Página Inicial</title>
+</head>
+<body>
+	<header class="max-width bg" id="home">
+		<div class="container">
+			<div class="menu">
+				<div class="Logo"></div>
+				<div class="Titulo"><h2>O SEU E-BOOK</h2></div>
+			</div>
+			<div class="call">
+				<div class="left">
+					<h1 class="color-azul text-gd">Novos Livros</h1>
+					<p class="color-azul text-pq">Lorem ipsum dolor sit amet consectetur adipising elit.Nemo allum ventil aani modi accussum comidi delitim neque n dmoddoe  djhff hejjjdd kkeijhhjx jregkfvkerrg gekrgkglergeld,ns</p>
+					<button>Compre agora</button>
+				</div>
+				<div class="right">
+					<div class="imagem">
+						<img src="img/Img1.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<button id="back-to-top">^</button>
+	</header>
+
+	<section class="max-width bg2" id="about">
+		<div class="container">
+			<div class="titulo">
+				<h2 class="text-md color-cinza-1">Novidades</h2>
+				<div class="line">
+					<div class="text-titulo">Livros</div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="box">
+					<img src="img/hashirama.jpg" alt="">
+					<div class="text">
+						<h2>Conjuntos</h2>
+						<p>Novos Temas</p>
+						<i class="fa-solid fa-right-long">==></i>
+					</div>
+				</div>
+
+				<div class="box">
+					<img src="img/minato1.jpg" alt="">
+					<div class="text">
+						<h2>Conjuntos</h2>
+						<p>Novos Temas</p>
+						<i class="fa-solid fa-right-long">==></i>
+					</div>
+				</div>
+
+				<div class="box">
+					<img src="img/minato2.jpg" alt="">
+					<div class="text">
+						<h2>Conjuntos</h2>
+						<p>Novos Temas</p>
+						<i class="fa-solid fa-right-long">==></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="max-width bg" id="service">
+		<div class="container">
+			<div class="content">
+				<div class="titulo">
+					<h2 class="text-md color-cinza-1">Novidades</h2>
+				<div class="line">
+					<div class="text-titulo">Livros</div>
+				</div>
+				</div>
+				<input type="radio" name="slider" id="item-1" checked>
+				<input type="radio" name="slider" id="item-2">
+				<input type="radio" name="slider" id="item-3">
+				<div class="cards">
+					<label class="card" for="item-1" id="song-1">
+						<img src="img/Sasuke.jpg" alt="">
+						<button>Comprar Agora</button>
+					</label>
+
+					<label class="card" for="item-2" id="song-2">
+						<img src="img/Madara.jpg" alt="">
+						<button>Comprar Agora</button>
+					</label>
+
+					<label class="card" for="item-3" id="song-3">
+						<img src="img/R.jpg" alt="">
+						<button>Comprar Agora</button>
+					</label>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script>
+		// back to top
+
+		var btn = document.querySelector("#back-to-top");
+
+		btn.addEventListener("click",function(){
+			window.scrollTo(0, 0);
+		}); 
+	</script>
+</body>
+</html>
