@@ -1,3 +1,3 @@
 # html-css
 
-Estou a prendendo a aprogramar
+Estou a prendendo a programar
